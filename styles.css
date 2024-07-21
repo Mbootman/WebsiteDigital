@@ -1,0 +1,144 @@
+h2{
+  color: red;
+  text-align: center;
+}
+
+h5{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.List{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  text-align: left;
+}
+.Tit{
+  color: black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium';
+  text-align: left;
+}
+  
+.First{
+  background-color:rgb(12, 88, 130);
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  color: #dddddd;
+}
+  
+header{
+  background-color: #054c6b;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background-image: url(Baze\ logo.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px; 
+}
+  
+.container {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-image: url(Back2.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+  
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Image{
+  width: 500px;
+  height: auto;
+  border: 5px solid #000;
+  border-radius: 10px;  
+  }
+
+.table {
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+}
+  
+.table th{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  background-color: #13bed4;
+  color: rgb(0, 6, 10);
+}
+
+table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  background-color: rgb(12, 88, 130);
+  color: aliceblue;
+}
+  
+.table th {
+  background-color: #f2f2f2;
+}
+
+.Ty{
+  color: #13bed4;
+  font-size: 25px;
+}
+
+#time{
+  color: rgb(234, 255, 0); 
+  position: absolute; 
+  top: 20px; 
+  right: 20px;
+  font-size: 10px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}
+    
+@media (min-width: 1024px) {
+  .container {
+    width: 60%;
+  }
+}
+
+.contact-bar {
+  background-color: #0e8ad7;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+}
+    
+.contact-bar a {
+  color: #f2f2f2;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+    
+.contact-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
